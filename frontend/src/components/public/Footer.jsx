@@ -8,13 +8,10 @@ const Footer = () => {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
-                        <Link to="/" className="flex items-center">
-                            <img
-                                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-                                className="mr-3 h-16"
-                                alt="Logo"
-                            />
-                        </Link>
+                         <div className="flex items-center space-x-2">
+        <span className="text-purple-700 text-xl">{"</>"}</span>
+        <span className="font-bold text-lg text-pink-600">DevConnect</span>
+      </div>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
@@ -26,8 +23,8 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/about" className="hover:underline">
-                                        About
+                                    <Link to="/pricing" className="hover:underline">
+                                        Pricing
                                     </Link>
                                 </li>
                             </ul>
@@ -37,7 +34,7 @@ const Footer = () => {
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/hiteshchoudhary"
+                                        href="https://github.com/haseebather"
                                         className="hover:underline"
                                         target="_blank"
                                         rel="noreferrer"
@@ -72,9 +69,9 @@ const Footer = () => {
                 <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
-                        © 2023
+                        © 2025
                         <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                            hiteshchoudhary
+                            DevConnect
                         </a>
                         . All Rights Reserved.
                     </span>

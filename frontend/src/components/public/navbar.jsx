@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
 
-    <nav className="bg-gradient-to-r from-purple-300 to-purple-400 p-4 flex items-center justify-between rounded-t-md">
+    <nav className="flex items-center justify-between rounded-t-md mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       {/* Logo */}
       <div className="flex items-center space-x-2">
         <span className="text-purple-700 text-xl">{"</>"}</span>
