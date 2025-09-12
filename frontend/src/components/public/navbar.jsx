@@ -1,10 +1,10 @@
-import Button from "./button";
+import Navbutton from "./Navbutton";
 import {Link,NavLink} from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
-
-    <nav className="flex items-center justify-between rounded-t-md mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+  <div className="">
+    <nav className="flex  items-center justify-between rounded-t-md mx-auto w-full max-w-screen-2xl p-4 py-6 lg:py-8">
       {/* Logo */}
       <div className="flex items-center space-x-2">
         <span className="text-purple-700 text-xl">{"</>"}</span>
@@ -34,14 +34,15 @@ const Navbar = () => {
       </div>
 
       {/* Buttons */}
-      <div className="flex items-center space-x-4">
-       <Button text="Sign In" classes="text-black hover:text-purple-700 hover:bg-white/50 p-2 rounded-sm " />
+      <div  className="flex items-center space-x-4">
+       <Navbutton to="auth/login" text="Sign In" classes="text-black hover:text-purple-700 hover:bg-white/50 p-2 rounded-sm " />
 
-        <Button text="Get Started" classes="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-md hover:opacity-90 hover:translate-x-px hover:scale-x-110 "/>
+        <Navbutton to="auth/register" text="Get Started" classes="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-md hover:opacity-90 hover:translate-x-px hover:scale-x-110 "/>
          
 
       </div>
     </nav>
+    </div>
     </>
   );
 };
