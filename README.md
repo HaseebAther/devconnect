@@ -153,4 +153,4 @@ MIT License — feel free to use, modify, and share!
 
 ---
 
-> Built with 💙 by [Your Name]
+> Built with 💙 by Haseeb Ather
